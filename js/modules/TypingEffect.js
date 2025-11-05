@@ -12,7 +12,7 @@ class TypingEffect {
     this.#text = [
       "Hi, ",
       "I'm Bogdan, ",
-      "a web developer. ",
+      "a front-end developer. ",
       "Welcome to my website!",
     ];
     this.#activeLetter = -30;

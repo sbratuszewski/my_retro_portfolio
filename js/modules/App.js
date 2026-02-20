@@ -2,6 +2,7 @@ import Footer from "./Footer.js";
 import TypingEffect from "./TypingEffect.js";
 import MenuToggle from "./MenuToggle.js";
 import MeteorShower from "./MeteorShower.js";
+import ProjectsItem from "./ProjectsItem.js";
 
 class App {
   constructor() {
@@ -9,6 +10,7 @@ class App {
     this.typingEffect = new TypingEffect();
     this.menuToggle = new MenuToggle();
     this.meteorShower = new MeteorShower(".meteor-container", 20);
+    this.projectsItem = new ProjectsItem();
   }
 
   init() {
@@ -19,6 +21,7 @@ class App {
       console.log("TypingEffect finished");
       this.startFadeOutAnimation();
     });
+    this.projectsItem.init();
   }
 
   createMeteorContainer() {

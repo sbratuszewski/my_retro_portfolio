@@ -43,7 +43,7 @@ a {
   left: 50%;
   transform: translateX(-50%);
   display: block;
-  width: 320px;
+  width: 380px;
   text-align: left;
   opacity: 1;
   transition: opacity 2s ease;

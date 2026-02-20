@@ -20,7 +20,7 @@ class ProjectsItem {
         link: "https://github.com/sbratuszewski/my_retro_portfolio",
       },
       {
-        title: "Grey Painters",
+        title: "Gray Painters",
         description:
           "A web application for an industrial painting company, built with React and Tailwind CSS.",
         link: "https://github.com/sbratuszewski/gray_painters",

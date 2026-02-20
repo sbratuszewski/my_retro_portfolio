@@ -139,6 +139,16 @@ a {
   transform: translateY(-3px);
 }
 
+.icon-link:hover {
+  animation: bounce 1s ease infinite;
+}
+@keyframes bounce {
+  0% { transform: translateY(0) scale(1); }
+  40% { transform: translateY(-5px) scale(1.3); }
+  50% { transform: translateY(0) scale(1);}
+  60% { transform: translateY(-5px) scale(1.3); }
+  80% { transform: translateY(0) scale(1);}
+}
 
 /* *******************/
 footer {

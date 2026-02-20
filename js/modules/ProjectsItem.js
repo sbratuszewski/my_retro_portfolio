@@ -14,6 +14,12 @@ class ProjectsItem {
         link: "https://github.com/sbratuszewski/limelight-cinema",
       },
       {
+        title: "Portfolio Website",
+        description:
+          "A personal portfolio website showcasing my projects and skills, developed with modular JavaScript (OOP-based architecture) and styled with Tailwind CSS.",
+        link: "https://github.com/sbratuszewski/my_retro_portfolio",
+      },
+      {
         title: "Grey Painters",
         description:
           "A web application for an industrial painting company, built with React and Tailwind CSS.",

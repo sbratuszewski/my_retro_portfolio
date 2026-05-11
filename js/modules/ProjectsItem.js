@@ -4,25 +4,29 @@ class ProjectsItem {
       {
         title: "Grand Physios",
         description:
-          "An informative website for a physiotherapy practice, built using React and Tailwind CSS and animated with Framer Motion.",
+          "Website for a physiotherapy practice built with a component-based React architecture. Responsibilities: Developed reusable React components; Managed application state using useState and useEffect; Implemented responsive layouts with Tailwind CSS; Added UI animations with Framer Motion.",
+        tags: ["React", "Tailwind CSS", "Framer Motion"],
         link: "https://github.com/sbratuszewski/grand-physios",
       },
       {
         title: "Limelight Cinema",
         description:
           "A cinema web application developed using PHP, SQL and databases, featuring a custom CMS with an admin panel for managing content.",
+        tags: ["PHP", "SQL", "MySQL"],
         link: "https://github.com/sbratuszewski/limelight-cinema",
       },
       {
         title: "Portfolio Website",
         description:
           "A personal portfolio website showcasing my projects and skills, developed with modular JavaScript (OOP-based architecture) and styled with Tailwind CSS.",
+        tags: ["JavaScript", "Tailwind CSS"],
         link: "https://github.com/sbratuszewski/my_retro_portfolio",
       },
       {
         title: "Gray Painters",
         description:
           "A web application for an industrial painting company, built with React and Tailwind CSS.",
+        tags: ["React", "Tailwind CSS"],
         link: "https://github.com/sbratuszewski/gray_painters",
       },
     ];
